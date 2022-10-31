@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo App</title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title -->
+      <nav class="nav-bar">
+        <img class="logo-image" src="images/logo.png" alt="logo" />
+        <form class="search-bar" action="">
+          <img src="images/search-icon.png" alt="search" />
+          <input type="text" placeholder="Search.." />
+        </form>
+
+        <ul class="nav-icons">
+          <li>
+            <img src="images/gallery-icon.png" alt="main-photos" />
+            <p>Photos</p>
+          </li>
+          <li>
+            <img src="images/heart-icon.png" alt="main-photos" />
+            <p>Saved</p>
+          </li>
+          <li>
+            <img src="images/theme-icon.png" alt="main-photos" />
+            <p>Theme</p>
+          </li>
+        </ul>
+      </nav>
+      <!-- Loader -->
+      <div class="loader" id="loader">
+        <img src="loader.svg" alt="Loading" hidden />
+      </div>
+      <!-- Image Container -->
+      <div class="image-container" id="image-container"></div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
