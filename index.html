@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+     
       <!-- Title -->
       <nav class="nav-bar">
         <img class="logo-image" src="images/logo.png" alt="logo" />
@@ -27,18 +28,35 @@
             <p>Saved</p>
           </li>
           <li>
-            <img src="images/theme-icon.png" alt="main-photos" />
+            <img
+              class="theme-icon"
+              src="images/dark-moon.png"
+              alt="main-photos"
+            />
             <p>Theme</p>
           </li>
         </ul>
       </nav>
+     
       <!-- Loader -->
       <div class="loader" id="loader">
         <img src="loader.svg" alt="Loading" hidden />
       </div>
+      
       <!-- Image Container -->
       <div class="image-container" id="image-container"></div>
     </div>
+  </div>
+   <!-- Modal -->
+ <div class="modal-container show-modal  " id="modal">
+  <div class="modal"> 
+     <img class="close-btn" src="images/exit-icon.png" alt="exit">
+     <img class="modal-image" src="" alt="">
+     <button class="controls pre-btn"><img src="images/right-arrow.png" alt=""></button>
+     <button class="controls nxt-btn"><img src="images/left-arrow.png" alt=""></button>
+  </div>  
+</div>
+ 
     <!-- Script -->
     <script src="script.js"></script>
   </body>
