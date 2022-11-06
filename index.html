@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo App</title>
+    <script src="https://kit.fontawesome.com/b892a1dd53.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -40,7 +41,7 @@
      
       <!-- Loader -->
       <div class="loader" id="loader">
-        <img src="loader.svg" alt="Loading" hidden />
+        <img src="images/loading-svgrepo-com.svg" alt="Loading" hidden />
       </div>
       
       <!-- Image Container -->
@@ -48,12 +49,15 @@
     </div>
   </div>
    <!-- Modal -->
- <div class="modal-container show-modal  " id="modal">
+ <div class="modal-container hide-modal" id="modal">
   <div class="modal"> 
      <img class="close-btn" src="images/exit-icon.png" alt="exit">
      <img class="modal-image" src="" alt="">
      <button class="controls pre-btn"><img src="images/right-arrow.png" alt=""></button>
      <button class="controls nxt-btn"><img src="images/left-arrow.png" alt=""></button>
+     <i class="fa-regular fa-star"></i>
+     <i class="fa-regular fa-heart"><p class="likes"></p></i>
+     
   </div>  
 </div>
  
